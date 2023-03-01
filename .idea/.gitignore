@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+node_modules
+.env
+package-lock.json
+modules.xml
+Project_Default.xml
+projetS401.iml
+vcs.xml
