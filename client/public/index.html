@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/logo/iconSite.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
+
+<style>
+    nav{
+        display: block;
+    }
+    * {
+        font-family: Poppins, sans-serif;
+    }
+
+    p{
+        text-align: center;
+        margin: 40px 300px 40px 300px ;
+        font-size: 25px;
+        line-height: 200%;
+        font-family: "Poppins", sans-serif;
+    }
+
+    hr{
+        border: none;
+        background-color: lightblue;
+        height: 8px;
+
+        border-radius: 4px;
+        margin: 40px 280px 40px 280px ;
+    }
+
+    /* Première partie de la page d'acceuil */
+
+    .image{
+        width: 100%;
+    }
+    .image_principale{
+        position: relative;
+        float: left;
+        width: 100%;
+        max-height: 100%;
+        filter: blur(4px);
+    }
+    .image .titre_fete_foraine {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 7%;
+        color: aliceblue;
+        font-size: 160px;
+        font-family: Poppins, sans-serif;
+        backdrop-filter: blur();
+        filter: blur(0);
+    }
+    .date{
+        position: absolute;
+        margin-top: 32%;
+        margin-left: 8%;
+        color: aliceblue;
+        font-size: 40px;
+        font-family: Poppins, sans-serif;
+    }
+
+    /* Deuxième partie de la page d'acceuil */
+
+    .text{
+        margin-top: 1200px;
+    }
+
+    /* Troisième partie de la page d'acceuil */
+
+    .manege{
+
+        max-height: 28%;
+        margin-bottom: 30px;
+    }
+
+    #titre_troisieme_partie{
+        font-size: 45px;
+        font-family: Poppins, sans-serif;
+        padding: 30px 0px 30px 8%;
+    }
+
+    /* Quatrième partie de la page d'acceuil */
+
+    #titre_sponsor{
+        font-size: 45px;
+        font-family: Poppins, sans-serif;
+        padding: 30px 0px 30px 8%;
+    }
+
+    .sponsors{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .sponsor{
+        margin-top: 20px;
+    }
+</style>

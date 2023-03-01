@@ -1,0 +1,429 @@
+<template>
+  <div>
+    <svg width="1000" height="700" viewBox="0 0 264.58334 185.20834" version="1.1" id="svg16"
+      sodipodi:docname="dessin.svg" inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <defs id="defs10" />
+      <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
+        inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.98994949" inkscape:cx="474.26662"
+        inkscape:cy="392.94934" inkscape:document-units="px" inkscape:current-layer="g196-3" showgrid="false" units="px"
+        inkscape:window-width="1920" inkscape:window-height="1011" inkscape:window-x="0" inkscape:window-y="0"
+        inkscape:window-maximized="1" inkscape:pagecheckerboard="0" width="1000px" height="700px" />
+      <metadata id="metadata13">
+        <rdf:RDF>
+          <cc:Work rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          </cc:Work>
+        </rdf:RDF>
+      </metadata>
+      <g inkscape:label="Calque 1" inkscape:groupmode="layer" id="layer1"
+        transform="matrix(1.0795071,0,0,1.0514053,-0.01264569,-111.20675)">
+
+        <!--Herbe vert foncé-->
+        <rect  style="fill:#008000;stroke:#000000;stroke-width:0.208769;stroke-opacity:1" id="rect1257" width="244.74887"
+          height="164.00043" x="0.23951904" y="106.4082" />
+
+        <!--Herbe vert clair millieu + haut-->
+        <rect  id="rect34" width="219.41092" height="76.340439" x="8.7569656" y="112.54943"
+          style="fill:#669900;stroke:none;stroke-width:0.215456;stroke-opacity:1" />
+
+        <!--Herbe vert clair millieu + bas-->
+        <rect  id="rect36" width="141.64478" height="81.471977" x="86.483948" y="188.90956"
+          style="fill:#669900;stroke:none;stroke-width:0.275239;stroke-opacity:1" />
+
+        <!-- Parking -->
+        <rect  style="fill:#cccccc;stroke:#000000;stroke-width:0.241493;stroke-opacity:1" id="rect47" width="77.735085"
+          height="81.526466" x="8.7456465" y="188.88231" />
+
+        <!-- première grand allée (sortie droite parking -->
+        <path style="fill:#ffffff;stroke:none;stroke-width:0.218154;stroke-opacity:1"
+          d="M 86.657469,223.2682 H 190.99828 v 11.28174 H 86.657469 Z" id="rect1228"
+          inkscape:connector-curvature="0" />
+
+        <!-- 2ème grand allée celle du haut  -->
+        <rect style="fill:#ffffff;stroke:none;stroke-width:0.238147;stroke-opacity:1" id="rect1233" width="190.01291"
+          height="13.467899" x="33.042328" y="137.60287" />
+
+
+        <!-- petite allée sortie parking haut  -->
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.248002;stroke-opacity:1" id="rect1235" width="3.2276657"
+          height="37.449776" x="33.046322" y="151.11032" />
+
+        <!-- ruelle -->
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.208769;stroke-opacity:1" id="rect1237" width="5.4311552"
+              height="72.179848" x="185.56749" y="151.08289" />
+
+
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.208769;stroke-opacity:1" id="rect1239" width="5.2496514"
+              height="24.063744" x="185.74864" y="234.54994" />
+
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.208769;stroke-opacity:1" id="rect1241" width="90.942947"
+              height="4.1733789" x="94.805679" y="254.44032" />
+
+        <!-- ruelle -->
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.208769;stroke-opacity:1" id="rect1243" width="3.0797505"
+              height="19.884914" x="94.805679" y="234.5554" />
+
+        <!-- ruelle -->
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.233143;stroke-opacity:1" id="rect1245" width="3.0797415"
+              height="18.982031" x="135.74812" y="204.5262" />
+
+
+        <!-- ruelle -->
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.166636;stroke-opacity:1" id="rect1247" width="86.812424"
+              height="5.9408708" x="98.591972" y="198.44344" />
+
+
+
+        <!-- route (rect noir en bas) -->
+        <rect style="fill:#241c1c;stroke:#000000;stroke-width:0.218374;stroke-opacity:1" id="rect1251" width="244.56767"
+              height="11.281359" x="0.42068031" y="270.40863" />
+
+        <!-- ruelle -->
+        <rect  style="fill:#ffffff;stroke:none;stroke-width:0.179594;stroke-opacity:1" id="rect1253" width="27.380409"
+              height="6.1712794" x="191.17094" y="186.17635" />
+
+        <!-- Ruelle -->
+        <rect  y="170.47009" x="138.02856" height="6.1712794" width="47.538918" id="rect1099"
+              style="fill:#ffffff;stroke:none;stroke-width:0.236645;stroke-opacity:1" />
+
+
+        <!-- entrée droite rue -->
+        <rect style="fill:#ffffff;stroke:none;stroke-width:0.345441;stroke-opacity:1" id="rect1255" width="4.3971734"
+              height="119.15579" x="218.42175" y="151.13454" />
+
+
+
+
+        <!-- premier groupe de stand entrée parking droite-->
+        <!-- 1 3 5 7 9-->
+        <!-- 2 4 6 8 10-->
+        <g  id="g1351" style="fill:#ffc022" transform="matrix(0.67782228,0,0,0.91852108,0.05835778,8.643752)">
+
+          <rect @click="clickEmplacement($event)" y="246.01869" x="144.39273" height="10.021864" width="23.385347" id="1"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" />
+
+          <rect  @click="clickEmplacement($event)" style="fill:#ffc022;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="2"
+                width="23.364111" height="11.085116" x="144.40169" y="256.18719" />
+
+          <rect @click="clickEmplacement($event)" y="246.01869" x="167.77808" height="10.021864" width="23.385347" id="3"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" y="256.04056" x="167.82056" height="11.085116" width="23.364111" id="4"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" y="246.01869" x="191.18466" height="10.021854" width="23.364111" id="5"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.384269;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ffc022;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="6"
+            width="23.364111" height="11.085116" x="191.18466" y="256.04056" />
+
+          <rect @click="clickEmplacement($event)" y="246.01869" x="214.54877" height="10.021864" width="23.385347" id="7"
+            style="fill:#ffc022;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ffc022;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="8"
+                width="23.364111" height="11.085116" x="214.54877" y="256.04056" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ffc022;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" id="9"
+                width="23.385347" height="10.021864" x="237.93411" y="246.01869" />
+
+          <rect @click="clickEmplacement($event)" y="256.04056" x="237.95535" height="11.085116" width="23.364111" id="10"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+        </g>
+
+
+        <!-- stand nourriture 11-->
+        <rect @click="clickEmplacement($event)"
+              style="fill:#ff6600;stroke:#000000;stroke-width:0.318791;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+              y="-258.23175" x="-208.20747" height="23.905682" width="17.698614" id="11"
+              transform="matrix(-0.99999931,-0.0011779,-0.0020892,-0.99999782,0,0)" />
+
+
+        <!-- Stand nouriturre droite -->
+        <g transform="matrix(-0.00434695,0.9185152,-1.2117633,-0.00329498,515.74925,5.8522062)" id="g252"
+           style="fill:#ff6600">
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff6600;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="12" width="23.364111"
+                height="11.085116" x="214.54877" y="256.04056" />
+
+          <rect @click="clickEmplacement($event)" y="256.04056" x="167.82056" height="11.085116" width="23.364111" id="14"
+                style="fill:#ff6600;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+        </g>
+        <!-- Stand nouriturre droite -->
+        <g id="g258" transform="matrix(-0.00440793,0.9166822,-1.2287594,-0.00328841,533.73352,6.2374128)"
+           style="fill:#ff6600">
+          <rect  @click="clickEmplacement($event)" y="256.04056" x="214.54877" height="11.085116" width="23.364111" id="13"
+                style="fill:#ff6600;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+          <rect  @click="clickEmplacement($event)" style="fill:#ff6600;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="15" width="23.364111"
+                  height="11.085116" x="167.82056" y="256.04056" />
+        </g>
+
+
+
+
+
+        <!-- groupe stand ligne du haut droite-->
+        <!-- ... 20 19 18 17 16-->
+        <g id="g230-6" transform="matrix(0.67782228,0,0,0.91852108,52.981099,-107.64652)" style="fill:#ff9900">
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="16"
+                width="23.364111" height="11.085116" x="227.40874" y="255.74031" />
+
+          <rect @click="clickEmplacement($event)" y="255.74031" x="204.04463" height="11.085116" width="23.364111" id="17"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" y="255.74031" x="180.68053" height="11.085116" width="23.364111" id="18"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="19"
+                 width="23.364111" height="11.085116" x="157.31642" y="255.74031" />
+
+          <rect @click="clickEmplacement($event)" y="255.74033" x="133.95232" height="11.085116" width="23.364111" id="20"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+        </g>
+
+
+        <!-- Stand ligne du haut gauche-->
+        <!-- 25 24 23 22 21 ... -->
+        <g  id="g230" transform="matrix(0.67782228,0,0,0.91852108,-33.322393,-107.623)" style="fill:#ff9900">
+
+          <rect  @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="21" width="23.364111"
+                  height="11.085116" x="237.91287" y="255.71472" />
+
+          <rect @click="clickEmplacement($event)" y="255.71472" x="214.54877" height="11.085116" width="23.364111" id="22"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" y="255.71472" x="191.18466" height="11.085116" width="23.364111" id="23"
+                 style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="24" width="23.364111"
+                height="11.085116" x="167.82056" y="255.71471" />
+
+          <rect @click="clickEmplacement($event)" y="255.74033" x="133.95232" height="11.085116" width="23.364111" id="25"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+        </g>
+
+        <!-- Grande attraction haut gauche-->
+        <rect @click="clickEmplacement($event)"  id="26" width="22.101673" height="60.391205" x="11.109194" y="124.32918"
+              style="fill:#d40000;stroke:#000000;stroke-width:0.318789;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
+        <!-- block de 5 stand vers la sortie parking droite-->
+        <!--    28 29 30 31-->
+        <!-- 27            -->
+        <g  transform="matrix(0.67782228,0,0,0.91852108,-70.816205,-74.890469)" id="g1087" style="fill:#ffc022">
+          <rect @click="clickEmplacement($event)" y="-169.10118" x="251.25786" height="11.085116" width="23.364111" id="27"
+                 style="fill:#ffc022;stroke:#000000;stroke-width:0.40414;stroke-linecap:butt;stroke-opacity:1;paint-order:normal"
+                 transform="rotate(90)" />
+
+          <rect @click="clickEmplacement($event)" y="246.00369" x="169.26607" height="10.051865" width="21.912363" id="28"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.386766;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" y="246.01869" x="191.18466" height="10.021854" width="23.364111" id="29"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.384269;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" y="246.01869" x="214.54877" height="10.021864" width="23.385347" id="30"
+                style="fill:#ffc022;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" />
+
+
+          <rect @click="clickEmplacement($event)" style="fill:#ffc022;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" id="31"
+                 width="23.385347" height="10.021864" x="237.93411" y="246.01869" />
+        </g>
+
+
+        <!--Bloc dessus grosse attraction millieu (fait le coin de l'allée) -->
+        <!--32 33 34 35 36  -->
+        <!--      39 38 37-->
+        <g id="g196" transform="matrix(0.67782228,0,0,0.91852108,8.4393342,-74.890469)" style="fill:#ff9900">
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" id="32"
+                 width="23.385347" height="10.021864" x="144.39273" y="246.01869" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" id="33"
+            width="23.385347" height="10.021864" x="167.77808" y="246.01869" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.384269;stroke-opacity:1" id="34"
+                width="23.364111" height="10.021854" x="191.18466" y="246.01869" />
+
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" id="35"
+                width="23.385347" height="10.021864" x="214.54877" y="246.01869" />
+
+
+          <rect @click="clickEmplacement($event)" y="246.01869" x="237.93411" height="10.021864" width="23.385347" id="36"
+            style="fill:#ff9900;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" id="37" width="23.364111"
+            height="11.085116" x="237.95535" y="256.04056" />
+
+
+          <rect @click="clickEmplacement($event)" y="256.04056" x="214.54877" height="11.085116" width="23.364111" id="38"
+            style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+          <rect @click="clickEmplacement($event)" y="256.04056" x="191.18466" height="11.085116" width="23.364111" id="39"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+        </g>
+
+
+        <!-- Grande attrac (dessus infirmerie)-->
+        <rect @click="clickEmplacement($event)"
+            style="fill:#d40000;stroke:#000000;stroke-width:0.318789;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+            id="40" width="39.436573" height="27.973352" x="98.591972" y="170.47009" />
+
+
+        <!-- block de stand à droite de la grande attraction millieu -->
+        <!-- 41 42 43-->
+        <!-- 44 45-->
+        <g id="g196-3" transform="matrix(0.67782228,0,0,0.91852108,8.4393258,-46.917109)" style="fill:#ff9900">
+
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.384269;stroke-opacity:1" id="41"
+                width="23.364111" height="10.021854" x="191.18466" y="243.3896" />
+
+
+          <rect @click="clickEmplacement($event)" style="fill:#ff9900;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" id="42"
+                 width="23.385347" height="10.021864" x="214.54877" y="243.3896" />
+
+
+          <rect @click="clickEmplacement($event)" y="243.3896" x="237.93411" height="10.021864" width="23.385347" id="43"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.398957;stroke-opacity:1" />
+
+
+
+          <rect  @click="clickEmplacement($event)" y="256.04056" x="191.18466" height="11.085116" width="23.364111" id="44"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+
+
+          <rect @click="clickEmplacement($event)" y="256.04056" x="214.54877" height="11.085116" width="23.364111" id="45"
+                style="fill:#ff9900;stroke:#000000;stroke-width:0.40414;stroke-opacity:1" />
+
+        </g>
+
+
+        <!-- Grande attrac (droite infirmerie)-->
+        <rect @click="clickEmplacement($event)"
+            style="fill:#d40000;stroke:#000000;stroke-width:0.285669;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+            id="46" width="46.725662" height="18.958645" x="138.83957" y="204.53789" />
+
+        <!-- stand nourriture droite infirmérie-->
+        <rect @click="clickEmplacement($event)"
+          style="fill:#ff6600;stroke:#000000;stroke-width:0.318791;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          y="-135.2205" x="205.48746" height="23.28339" width="18.171656" id="47"
+          transform="matrix(0.00237638,0.99999718,-0.99998268,0.00588535,0,0)" />
+
+
+        <!-- Infirmerie-->
+        <rect
+              style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.25505574;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+              id="rect977" width="13.700307" height="10.058449" x="91.6464" y="213.09355" />
+
+        <!-- Croix infirmerie -->
+        <rect
+              style="fill:#ff0000;stroke:none;stroke-width:0.255056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+              id="rect2024" width="1.1216472" height="5.1900997" x="97.754921" y="215.40483" />
+        <!-- Croix infirmerie -->
+        <rect
+            style="fill:#ff0000;stroke:none;stroke-width:0.248383;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="rect2048" width="4.995276" height="1.463964" x="95.839691" y="217.21373" />
+
+
+        <!-- pointe flèche parking sortie -->
+        <path  sodipodi:type="star"
+              style="fill:#d40000;stroke:none;stroke-width:1.027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+              id="path2922" inkscape:flatsided="true" sodipodi:sides="3" sodipodi:cx="160.66092" sodipodi:cy="379.2334"
+              sodipodi:r1="15.635616" sodipodi:r2="7.8178082" sodipodi:arg1="1.569101" sodipodi:arg2="2.6162986"
+              inkscape:rounded="0" inkscape:randomized="0" d="m 160.68743,394.86899 -13.58059,-23.43043 27.08165,-0.0459 z"
+              transform="matrix(0.10763813,0,0,0.11441839,17.380783,149.79424)" inkscape:transform-center-x="0.0015401812"
+              inkscape:transform-center-y="0.46886046" />
+
+        <!-- flèche parking sortie -->
+        <rect
+          style="fill:#d40000;stroke:none;stroke-width:0.255056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          id="rect3026" width="0.82674474" height="3.0256078" x="34.25753" y="189.29845" />
+
+        <!-- pointe flèche parking entrée -->
+        <path  sodipodi:type="star"
+          style="fill:#d40000;stroke:none;stroke-width:1.027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          id="path2922-9" inkscape:flatsided="true" sodipodi:sides="3" sodipodi:cx="160.66092" sodipodi:cy="379.2334"
+          sodipodi:r1="15.635616" sodipodi:r2="7.8178082" sodipodi:arg1="1.569101" sodipodi:arg2="2.6162986"
+          inkscape:rounded="0" inkscape:randomized="0"
+          transform="matrix(-7.1019401e-4,-0.11051266,0.11143742,-7.5493001e-4,42.392458,246.68939)"
+          inkscape:transform-center-x="-0.46365575" inkscape:transform-center-y="0.0077403091"
+          d="m 160.68743,394.86899 -13.58059,-23.43043 27.08165,-0.0459 z" />
+        <!-- flèche parking entrée -->
+        <rect
+          style="fill:#d40000;stroke:none;stroke-width:0.255056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          id="rect3026-1" width="0.84884089" height="2.9468484" x="-229.64314" y="79.282188"
+          transform="matrix(-0.00642623,-0.99997935,0.99997705,-0.00677432,0,0)" />
+
+
+
+
+        <!-- pointe flèche sortie droite -->
+        <path  sodipodi:type="star"
+              style="fill:#d40000;stroke:none;stroke-width:1.027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+              id="path2922-2" inkscape:flatsided="true" sodipodi:sides="3" sodipodi:cx="160.66092" sodipodi:cy="379.2334"
+              sodipodi:r1="15.635616" sodipodi:r2="7.8178082" sodipodi:arg1="1.569101" sodipodi:arg2="2.6162986"
+              inkscape:rounded="0" inkscape:randomized="0" transform="matrix(0.10763813,0,0,0.11441839,200.71826,230.58695)"
+              inkscape:transform-center-x="0.0015401812" inkscape:transform-center-y="0.46886046"
+              d="m 160.68743,394.86899 -13.58059,-23.43043 27.08165,-0.0459 z" />
+        <!-- flèche sortie droite -->
+        <rect
+          style="fill:#d40000;stroke:none;stroke-width:0.246774;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          id="rect3026-7" width="0.82674474" height="2.8323019" x="217.59502" y="270.28445" />
+
+        <!-- pointe flèche entrée droite -->
+        <path  sodipodi:type="star"
+          style="fill:#d40000;stroke:none;stroke-width:1.027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          id="path2922-0" inkscape:flatsided="true" sodipodi:sides="3" sodipodi:cx="160.66092" sodipodi:cy="379.2334"
+          sodipodi:r1="15.635616" sodipodi:r2="7.8178082" sodipodi:arg1="1.569101" sodipodi:arg2="2.6162986"
+          inkscape:rounded="0" inkscape:randomized="0"
+          transform="matrix(-0.10763795,1.880605e-4,-2.0462244e-4,-0.10603725,240.19579,312.12872)"
+          inkscape:transform-center-x="-0.0032640063" inkscape:transform-center-y="-0.433177"
+          d="m 160.68743,394.86899 -13.58059,-23.43043 27.08165,-0.0459 z" />
+
+        <!-- flèche entrée droite -->
+        <rect
+          style="fill:#d40000;stroke:none;stroke-width:0.255056;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          id="rect3026-9" width="0.82674479" height="3.0256076" x="-222.7549" y="-276.1868"
+          transform="matrix(-0.99999822,0.00188525,-0.00178837,-0.9999984,0,0)" />
+      </g>
+
+      <!--toillete droite infirmerie -->
+      <rect
+            style="fill:#005c94;stroke:#000000;stroke-width:0.318789;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+            id="rect1103" width="7.6860209" height="10.415374" x="113.70988" y="112.84094" />
+
+      <!--toillete centre -->
+      <rect  y="87.550194" x="192.4467" height="9.8875484" width="7.6860209" id="rect1105"
+        style="fill:#005c94;stroke:#000000;stroke-width:0.310606;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+
+      <!--toillete droite -->
+      <rect
+        style="fill:#005c94;stroke:#000000;stroke-width:0.318789;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+        id="rect1107" width="7.6860209" height="10.415374" x="227.71222" y="123.76755" />
+
+      <!--toillete haut -->
+      <rect y="22.591248" x="79.126221" height="10.73007" width="7.6860209" id="rect1109"
+        style="fill:#005c94;stroke:#000000;stroke-width:0.323569;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    </svg>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "SVGMap",
+  methods:{
+    clickEmplacement(event){
+      this.$emit("StandClick",event.target)
+    }
+  }
+};
+
+</script>
