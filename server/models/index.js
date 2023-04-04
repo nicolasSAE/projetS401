@@ -23,4 +23,7 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 db.user = require("../models/user.model.js")(sequelize);
+db.refreshToken = require("../models/refreshToken.model.js")(sequelize);
+db.refreshToken.belongsTo(db.user,{foreignKey: 'userId',targetKey: 'id'});
+db.user.hasOne(db.user,{foreignKey: 'userId'});
 module.exports = db;
