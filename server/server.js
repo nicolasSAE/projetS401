@@ -6,14 +6,33 @@ const app = express();
 // ADD SWAGGER MODULES
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
+
+const passport = require('passport');
+const session = require('express-session');
+
+const exphbs = require('express-handlebars');
+
 let corsOptions = {
     origin: "http://localhost:3000"
 };
+app.set('views', './views')
+app.set("view engine", ".hbs");
+app.engine('hbs',exphbs.engine({
+    extname: ".hbs",
+    defaultLayour: "",
+    layoutsDir: "",
+}));
+
 app.use(cors(corsOptions));
 // analyser les requêtes de type de contenu - application/json
 app.use(bodyParser.json());
 // analyser les requêtes de type de contenu - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(session({ secret: 'butinfo',resave: true, saveUninitialized:true}));
+app.use(passport.initialize());
+app.use(passport.session());
+
 /** Swagger Initialization - START */
 const swaggerSpec = swaggerJsdoc({
     swaggerDefinition: {
@@ -204,8 +223,11 @@ db.sequelize.sync().then(() => {
 });
 
 // routes
-require('./routes/auth.routes')(app);
+require('./routes/auth.routes')(app,passport);
 require('./routes/user.routes')(app);
+
+const models = require("./models");
+require('./config/passport/passport.js')(passport,models.user);
 
 // définir le port, écouter les requêtes
 const PORT = process.env.PORT || 3000;

@@ -52,3 +52,17 @@ exports.signin = (req, res) => {
         res.status(500).send({ message: err.message });
     });
 };
+exports.signupv = function(req, res) {
+    res.render('signup');
+}
+exports.signinv = function(req, res) {
+    res.render('signin');
+}
+exports.home = function(req,res){
+    res.render('home');
+}
+exports.logout = function(req,res){
+    req.session.destroy(function(err) {
+        res.redirect('/signin');
+    });
+}
