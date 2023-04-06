@@ -9,6 +9,7 @@ const swaggerUi = require("swagger-ui-express");
 
 const passport = require('passport');
 const session = require('express-session');
+const Add = require("./middleware/addToken")
 
 const exphbs = require('express-handlebars');
 
@@ -32,6 +33,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(session({ secret: 'butinfo',resave: true, saveUninitialized:true}));
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(addTokenToHeader);
 
 /** Swagger Initialization - START */
 const swaggerSpec = swaggerJsdoc({

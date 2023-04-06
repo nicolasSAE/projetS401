@@ -6,6 +6,7 @@ module.exports = function(app) {
             "Access-Control-Allow-Headers",
             "x-access-token, Origin, Content-Type, Accept"
         );
+        app.use(addTokenToHeader);
         next();
     });
     app.get("/test/all", controller.allAccess);
