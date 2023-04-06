@@ -44,8 +44,163 @@ const swaggerSpec = swaggerJsdoc({
 });
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 /** Swagger Initialization - END */
+/**
+ * @swagger
+ * /auth/signup:
+ *   post:
+ *      description: Used to signup user
+ *      tags:
+ *          - users
+ *      requestBody:
+ *          required: true
+ *          content:
+ *             application/json:
+ *                schema:
+ *                    type: object
+ *                    properties:
+ *                        firstName:
+ *                          type: string
+ *                          minLength: 1
+ *                          maxLength: 50
+ *                          example: firstname
+ *                        lastName:
+ *                          type: string
+ *                          minLength: 1
+ *                          maxLength: 50
+ *                          example: lastname
+ *                        emailId:
+ *                          type: string
+ *                          minLength: 1
+ *                          maxLength: 50
+ *                          example: test@something.com
+ *                        password:
+ *                          type: string
+ *                          minLength: 4
+ *                          maxLength: 50
+ *                          example: abcd
+ *      security:
+ *	       - jwt: []
+ *      responses:
+ *          '200':
+ *              description: Resource added successfully
+ *          '500':
+ *              description: Internal server error
+ *          '400':
+ *              description: Bad request
+ */
+
+
+/**
+ * @swagger
+ * /auth/signin:
+ *   post:
+ *      description: Used to sign in user
+ *      tags:
+ *          - users
+ *      requestBody:
+ *          required: true
+ *          content:
+ *             application/json:
+ *                schema:
+ *                    type: object
+ *                    properties:
+ *                        emailId:
+ *                          type: string
+ *                          minLength: 1
+ *                          maxLength: 50
+ *                          example: test@something.com
+ *                        password:
+ *                          type: string
+ *                          minLength: 4
+ *                          maxLength: 50
+ *                          example: abcd
+ *      security:
+ *	       - jwt: []
+ *      responses:
+ *          '200':
+ *              description: Resource added successfully
+ *          '500':
+ *              description: Internal server error
+ *          '400':
+ *              description: Bad request
+ */
+
+
+
+/**
+ * @swagger
+ * /test/all:
+ *   get:
+ *      security:
+ *	       - jwt: []
+ *      description: Used to access public content
+ *      tags:
+ *          - users
+ *      responses:
+ *          '200':
+ *              description: Resource returned successfully
+ *          '500':
+ *              description: Internal server error
+ *          '400':
+ *              description: Bad request
+ */
+
+
+/**
+ * @swagger
+ * /test/user:
+ *   get:
+ *      security:
+ *	       - jwt: []
+ *      description: Used to access user content
+ *      tags:
+ *          - users
+ *      responses:
+ *          '200':
+ *              description: Resource returned successfully
+ *          '500':
+ *              description: Internal server error
+ *          '400':
+ *              description: Bad request
+ */
+
+
+/**
+ * @swagger
+ * /auth/refreshtoken:
+ *   post:
+ *      description: Used to refresh token
+ *      tags:
+ *          - users
+ *      requestBody:
+ *          required: true
+ *          content:
+ *             application/json:
+ *                schema:
+ *                    type: object
+ *                    properties:
+ *                        refreshToken:
+ *                          type: string
+ *                          minLength: 1
+ *                          maxLength: 100
+ *      security:
+ *	       - jwt: []
+ *      responses:
+ *          '200':
+ *              description: Resource added successfully
+ *          '500':
+ *              description: Internal server error
+ *          '400':
+ *              description: Bad request
+ */
 app.get("/", (req, res) => {
     res.json({ message: "Bienvenue dans l'application : Auth JWT" });
+});
+
+const db = require("./models");
+
+db.sequelize.sync().then(() => {
+    console.log('Database synchronized successfully');
 });
 
 // routes
@@ -56,9 +211,4 @@ require('./routes/user.routes')(app);
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Serveur écoute sur le port ${PORT}.`);
-});
-
-const db = require("./models");
-db.sequelize.sync().then(() => {
-    console.log('Database synchronized successfully');
 });
