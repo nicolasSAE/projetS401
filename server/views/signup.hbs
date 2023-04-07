@@ -22,18 +22,18 @@
 <script>
   function onSignIn(googleUser) {
     var id_token = googleUser.getAuthResponse().id_token;
-    // envoyer le token à votre serveur via AJAX
-    $.ajax({
-      url: "/auth/google/callback",
-      type: "GET",
-      data: { id_token: id_token },
-      success: function() {
-        window.location.href = "/home";
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', '/signin-google');
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        window.location.href = '/home';
+      } else {
+        alert('Failed to sign in with Google');
       }
-    });
+    };
+    xhr.send(JSON.stringify({ id_token: id_token }));
   }
 </script>
-
-
 </body>
 </html>

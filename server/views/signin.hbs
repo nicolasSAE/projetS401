@@ -1,6 +1,9 @@
 <html>
 <head>
     <title></title>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="1088594168504-ihgih6n9slh7kgspgafravg8q02fg6p9.apps.googleusercontent.com">
+
 </head>
 <body>
 <form id="signin" name="signin" method="post" action="signin">
@@ -10,5 +13,23 @@
     <input name="password" type="password" />
     <input class="btn" type="submit" value="Sign In" />
 </form>
+
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<script>
+  function onSignIn(googleUser) {
+    var id_token = googleUser.getAuthResponse().id_token;
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', '/signin-google');
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        window.location.href = '/home';
+      } else {
+        alert('Failed to sign in with Google');
+      }
+    };
+    xhr.send(JSON.stringify({ id_token: id_token }));
+  }
+</script>
 </body>
 </html>
