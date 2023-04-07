@@ -60,11 +60,6 @@ exports.signinv = function(req, res) {
     res.render('signin');
 }
 
-exports.signingoogle = function(req, res) {
-    console.log("test post");
-    res.render('signingoogle');
-}
-
 exports.home = function(req,res){
     res.render('home');
 }
