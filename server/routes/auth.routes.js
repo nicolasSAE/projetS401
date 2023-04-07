@@ -5,10 +5,11 @@ const client = new OAuth2Client('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');
 const GitHubStrategy = require('passport-github').Strategy;
 const GITHUB_CLIENT_ID = 'b5f70dc9af1cad8f94de';
 const GITHUB_CLIENT_SECRET = 'c42a6733a18757aa79f2ee1e9ee44789262a382e';
-const GITHUB_CALLBACK_URL = 'http://localhost:3000/auth/github/callback';
+const GITHUB_CALLBACK_URL = 'http://localhost:3000/home';
 
 const { verifySignUp } = require("../middleware");
 const controller = require("../controllers/auth.controller");
+
 module.exports = function(app,passport) {
 
     // Google
@@ -97,7 +98,6 @@ module.exports = function(app,passport) {
     app.get('/auth/github/callback',
         passport.authenticate('github', { failureRedirect: '/signin' }),
         function(req, res) {
-            // Si l'authentification réussit, redirigez l'utilisateur vers la page d'accueil
             res.redirect('/home');
         }
     );
@@ -127,7 +127,7 @@ module.exports = function(app,passport) {
     app.get('/logout',controller.logout);
 
     function isLoggedIn(req, res, next) {
-        if (req.isAuthenticated()) {
+        if (req.isAuthenticated() || req.session.passport) {
             return next();
         }
         res.redirect('/signin');

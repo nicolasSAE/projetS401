@@ -13,7 +13,9 @@
     <input name="password" type="password" />
     <input class="btn" type="submit" value="Sign In" />
 </form>
-
+<form action="/auth/github">
+  <input type="submit" value="Sign in with GitHub" class="github-button" />
+</form>
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
 <script>
   function onSignIn(googleUser) {
