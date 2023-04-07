@@ -32,22 +32,7 @@ module.exports = function(app,passport) {
     app.post("/signin", controller.signin);
     app.get('/signin', controller.signinv);
 
-    app.post('/signin-google', (req, res) => {
-        const { id_token } = req.body;
-
-        client.verifyIdToken({ idToken: id_token, audience: CLIENT_ID })
-            .then((ticket) => {
-                const { email, given_name, family_name } = ticket.getPayload();
-                console.log('email', email);
-                console.log('given_name', given_name);
-                console.log('family_name', family_name);
-                res.redirect('/home');
-            })
-            .catch((err) => {
-                console.error('Failed to verify id token', err);
-                res.status(400).send('Failed to sign in with Google');
-            });
-    });
+    app.post('/signin-google', controller.signingoogle);
 
     app.get('/home', isLoggedIn, controller.home);
     app.get('/logout',controller.logout);
