@@ -15,6 +15,13 @@ module.exports = function(app,passport) {
         ],
         controller.signup
     );
+    // route pour la connexion avec Google
+    app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
+    // route de rappel pour Google
+    app.get('/auth/google/callback', passport.authenticate('google', { failureRedirect: '/signin' }), function(req, res) {
+        res.redirect('/home');
+    });
+
     app.post("/signin", controller.signin);
     app.get('/signup', controller.signupv);
     app.get('/signin', controller.signinv);

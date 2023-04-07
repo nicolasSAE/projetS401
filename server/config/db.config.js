@@ -1,8 +1,8 @@
 require('dotenv').config();
 module.exports = {
     hostname: process.env.DB_HOST || "localhost",
-    user: process.env.DB_USERNAME || "nbasquin",
-    password: process.env.DB_PASSWORD || "2205",
+    user: process.env.DB_USERNAME || "theo",
+    password: process.env.DB_PASSWORD || "3630",
     database: process.env.DB_DATABASE || "bdd_service",
     dialect: "mysql",
     port: process.env.DB_PORT || 3306,

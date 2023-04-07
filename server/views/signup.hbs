@@ -2,6 +2,9 @@
 <html>
 <head>
     <title></title>
+    <!-- Google Sign-In -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="1088594168504-ihgih6n9slh7kgspgafravg8q02fg6p9.apps.googleusercontent.com">
 </head>
 <body>
 <form id="signupv" name="signupv" method="post" action="/signup">
@@ -15,5 +18,22 @@
     <input name="password" type="password" />
     <input class="btn" type="submit" value="Sign Up" />
 </form>
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<script>
+  function onSignIn(googleUser) {
+    var id_token = googleUser.getAuthResponse().id_token;
+    // envoyer le token à votre serveur via AJAX
+    $.ajax({
+      url: "/auth/google/callback",
+      type: "GET",
+      data: { id_token: id_token },
+      success: function() {
+        window.location.href = "/home";
+      }
+    });
+  }
+</script>
+
+
 </body>
 </html>
